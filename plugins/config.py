@@ -22,6 +22,8 @@ class Config(object):
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
+    
+    START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e17f42bc195635b668d6d.jpg")
 
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001651563551")
 
