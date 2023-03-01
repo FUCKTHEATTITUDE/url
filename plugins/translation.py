@@ -3,7 +3,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import START_IMG_URL as THUMBNAIL
 
 class Translation(object):
-
+    
+    PLAN_TEXT = await message.reply_photo(photo=THUMBNAIL,caption="**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**"
     START_TEXT = """
 🤗 Hello {}
 
@@ -43,8 +44,7 @@ join here [movie](https://t.me/MoviePlay_request)
 📁 Tᴏᴛᴀʟ Sɪᴢᴇ  : {2}\n
 🕔 Tɪᴍᴇ : {4}\n
 """
-    PLAN_TEXT = await message.reply_photo(photo=THUMBNAIL,caption="**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**"
-  
+    
 
 
     START_BUTTONS = InlineKeyboardMarkup(
