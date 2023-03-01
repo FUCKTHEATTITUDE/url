@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-
+START_IMG_URL = "https://telegra.ph/file/9b11307f07f5d92295f4d.jpg"
 
 @Client.on_callback_query()
 async def button(bot, update):
