@@ -57,6 +57,6 @@ class Config(object):
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "1930954213"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001651563551")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001682965579")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "URLFILESUPLOADERRBOT")
