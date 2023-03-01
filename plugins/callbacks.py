@@ -40,9 +40,7 @@ async def button(bot, update):
     elif update.data == "premium":
         await update.message.edit_text(
             photo=THUMBNAIL
-            text=Translation.PRE_TEXT,
-            reply_markup=Translation.PRE_BUTTONS,
-            disable_web_page_preview=True
+            await update.answer("Okay, I deleted your custom thumbnail. Now I will apply defaul")
         )
     elif update.data == "OpenSettings":
         await update.answer()
