@@ -30,8 +30,8 @@ I Am Telegram URL Uploader Bot.
 ➪ Send /showthumb To View Custom Thumbnail 
  
 """
- await message.reply_photo(photo=THUMBNAIL,ABOUT_TEXT ="""**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**
-
+    await message.reply_photo(photo=THUMBNAIL,ABOUT_TEXT ="""**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD
+ ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**
 """
     PROGRESS = """
 🚀 Sᴘᴇᴇᴅ : {3}/s\n
