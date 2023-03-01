@@ -38,7 +38,7 @@ async def button(bot, update):
             disable_web_page_preview=True
         )
     elif update.data == "premium":
-        await message.reply_photo(
+        await update.message.edit_text(
             photo=THUMBNAIL
             text=Translation.PRE_TEXT,
             reply_markup=Translation.PRE_BUTTONS,
