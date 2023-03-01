@@ -1,4 +1,5 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from config import START_IMG_URL as THUMBNAIL
 
 class Translation(object):
 
@@ -29,20 +30,7 @@ I Am Telegram URL Uploader Bot.
 ➪ Send /showthumb To View Custom Thumbnail 
  
 """
-    ABOUT_TEXT = """
-**📛 My Name** : [Uploader Bot V3 🚀](http://t.me/UploadFlieBot)
-
-**❤️ Version** : [2.3 🔥](http://t.me/UploadFlieBot)
-
-**🤖 Source** : [Click](https://github.com/LISA-KOREA/UPLOADER-BOT-V3)
-
-**🧿 Language** : [Python 3.10.9](https://www.python.org/)
-
-**📢 Framework** : [Pyrogram 1.4.16](https://docs.pyrogram.org/)
-
-**👨‍💻 Developer** : [LISA](https://t.me/LISA_FAN_LK)
-
-"""
+    ABOUT_TEXT = await message.reply_photo(photo=THUMBNAIL,caption="""**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**"""
 
 
     PROGRESS = """
