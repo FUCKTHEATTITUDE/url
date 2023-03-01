@@ -43,7 +43,7 @@ join here [movie](https://t.me/MoviePlay_request)
 📁 Tᴏᴛᴀʟ Sɪᴢᴇ  : {2}\n
 🕔 Tɪᴍᴇ : {4}\n
 """
-    HELP_UPGRADE = await message.reply_photo(photo=THUMBNAIL,caption="**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR**"
+    PLAN_TEXT = await message.reply_photo(photo=THUMBNAIL,caption="**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**"
   
 
 
@@ -54,6 +54,8 @@ join here [movie](https://t.me/MoviePlay_request)
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about')
         ],[
+        InlineKeyboardButton('PREMIUM', callback_data='plan')
+        [
         InlineKeyboardButton('Close', callback_data='close')
         ]]
     )
@@ -73,6 +75,10 @@ join here [movie](https://t.me/MoviePlay_request)
         InlineKeyboardButton('🔒 Close', callback_data='close')
         ]]
     )
+    PLAN_BUTTONS = InlineKeyboardMarkup(
+        [[
+        InlineKeyboardButton('Close', callback_data='close')
+        ]]                                       
     BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Close', callback_data='close')
