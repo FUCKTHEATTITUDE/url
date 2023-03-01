@@ -38,9 +38,73 @@ async def button(bot, update):
             disable_web_page_preview=True
         )
     elif update.data == "premium":
-        await bot.send_photo(update.message.chat.id, START_IMG_URL, "pay money and send screen shot",
+        await bot.send_photo(update.message.chat.id, START_IMG_URL, """
+        ➥ UPI ID : praveenonnew@okaxis
+        ➥ Paytm : /QR_CODE
+
+        Send Payment Screenshot & Your Telegram Id @alpha_romeo_06""",
           reply_markup=types.InlineKeyboardMarkup([[
                                    types.InlineKeyboardButton("premium upgrade",
+                                                              callback_data="close")
+                               ]])
+        )
+    elif update.data == "paid":
+        await bot.send_photo(update.message.chat.id, START_IMG_URL, """
+        PAID PLANS AVAILABLE
+
+🛡️ PLAN 🛡️
+
+🌸 Per Month ₹80/$1.3
+🌸 Allowed Links
+🌸 No limit
+🌸 Mediafire link support
+🌸 Fembed link support
+🌸 No Timeout
+🌸 Support other link
+
+ Please upgrade your subscription""",
+          reply_markup=types.InlineKeyboardMarkup([[
+                                   types.InlineKeyboardButton("paid plans",
+                                                              callback_data="close")
+                               ]])
+        )
+    elif update.data == "PLANS":
+        await bot.send_photo(update.message.chat.id, START_IMG_URL, """
+        How To Use This Bot 🤔
+   
+𖣔 First go to the /settings and change the bot behavior as your choice.
+
+𖣔 Send me the custom thumbnail to save it permanently.
+
+𖣔 Send url | New Name.mkv
+
+𖣔 Youtube link support ✓
+
+𖣔 Google drive link support ✓
+
+𖣔 Zee5 shows support ✓
+
+𖣔 Mediafire link support ✓
+
+𖣔 Voot shows Support ✓
+
+𖣔 Tiktok link support ✓
+
+𖣔 Mdisk link support ✓
+
+𖣔 Fembed link support ✓
+
+𖣔 Magnet link 
+
+𖣔 ONLY PAID USER SUPPORT THIS LINKS
+
+𖣔 Select the desired option.
+
+𖣔 Then be relaxed your file will be uploaded soon..
+
+𖣔  to Set caption as Reply to Media""",
+          reply_markup=types.InlineKeyboardMarkup([[
+                                   types.InlineKeyboardButton("plans",
                                                               callback_data="close")
                                ]])
         )
