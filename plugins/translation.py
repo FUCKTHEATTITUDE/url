@@ -31,8 +31,22 @@ I Am Telegram URL Uploader Bot.
 ➪ Send /showthumb To View Custom Thumbnail 
  
 """
-    ABOUT_TEXT ="""**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD
- ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**
+    ABOUT_TEXT ="""**
+ 📛 My Name : [like to file](https://t.me/URLFILESUPLOADERRBOT)
+
+📍 Channel : @movieplayofficial
+
+ ✴️ movie request : @MoviePlay_request
+
+😒 Source : [Click](https://t.me/MoviePlay_request)
+
+🧿 Language : Python 3.11.1
+
+📢 Framework : Pyrogram-2.0.69
+
+🤖 Bot Server : VPS
+
+👩‍💻 Creater : @alpha_romeo_06**
 """ 
     
     PROGRESS = """
@@ -48,7 +62,7 @@ I Am Telegram URL Uploader Bot.
         InlineKeyboardButton('Settings', callback_data='OpenSettings')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='premium')
+        InlineKeyboardButton('premium', callback_data='premium')
         ],[
         InlineKeyboardButton('Close', callback_data='close')
         ]]
@@ -56,6 +70,7 @@ I Am Telegram URL Uploader Bot.
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Back', callback_data='home'),
+        InlineKeyboardButton('PAID', callback_data='paid'),
         InlineKeyboardButton('About', callback_data='about')
         ],[
         InlineKeyboardButton('Close', callback_data='close')
@@ -64,6 +79,7 @@ I Am Telegram URL Uploader Bot.
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Back', callback_data='home'),
+        InlineKeyboardButton('PLANS', callback_data='PLANS'),  
         InlineKeyboardButton('Help', callback_data='help')
         ],[
         InlineKeyboardButton('🔒 Close', callback_data='close')
