@@ -41,6 +41,8 @@ join here [movie](https://t.me/MoviePlay_request)
 📁 Tᴏᴛᴀʟ Sɪᴢᴇ  : {2}\n
 🕔 Tɪᴍᴇ : {4}\n
 """
+    HELP_UPGRADE ="""
+   """
 
 
     START_BUTTONS = InlineKeyboardMarkup(
