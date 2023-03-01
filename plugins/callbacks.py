@@ -38,9 +38,11 @@ async def button(bot, update):
             disable_web_page_preview=True
         )
     elif update.data == "premium":
-        await update.message.edit_text(
-            photo=THUMBNAIL
-            update.answer("Okay, I deleted your custom thumbnail. Now I will apply defaul")
+        await bot.send_photo(update.message.chat.id, THUMBNAIL, "pay money and send screen shot",
+          reply_markup=types.InlineKeyboardMarkup([[
+                                   types.InlineKeyboardButton("premium upgrade",
+                                                              callback_data="close")
+                               ]])
         )
     elif update.data == "OpenSettings":
         await update.answer()
