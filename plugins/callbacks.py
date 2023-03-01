@@ -37,6 +37,14 @@ async def button(bot, update):
             reply_markup=Translation.ABOUT_BUTTONS,
             disable_web_page_preview=True
         )
+    elif update.data == "premium":
+        await message.reply_photo(
+            photo=THUMBNAIL
+        await update.message.edit_text(
+            text=Translation.PRE_TEXT,
+            reply_markup=Translation.PRE_BUTTONS,
+            disable_web_page_preview=True
+        )
     elif update.data == "OpenSettings":
         await update.answer()
         await OpenSettings(update.message)
