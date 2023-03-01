@@ -38,7 +38,7 @@ async def button(bot, update):
             disable_web_page_preview=True
         )
     elif update.data == "premium":
-        await bot.send_photo(update.message.chat.id, THUMBNAIL, "pay money and send screen shot",
+        await bot.send_photo(update.message.chat.id, START_IMG_URL, "pay money and send screen shot",
           reply_markup=types.InlineKeyboardMarkup([[
                                    types.InlineKeyboardButton("premium upgrade",
                                                               callback_data="close")
