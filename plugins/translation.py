@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import START_IMG_URL as THUMBNAIL
+from plugins.config import START_IMG_URL as THUMBNAIL
 
 
 class Translation(object):
