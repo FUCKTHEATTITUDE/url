@@ -47,7 +47,7 @@ I Am Telegram URL Uploader Bot.
         InlineKeyboardButton('Settings', callback_data='OpenSettings')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
-        InlineKeyboardButton('About', callback_data='about')
+        InlineKeyboardButton('About', callback_data='premium')
         ],[
         InlineKeyboardButton('Close', callback_data='close')
         ]]
