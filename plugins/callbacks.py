@@ -3,7 +3,7 @@
 import os
 from functions.display_progress import progress_for_pyrogram, humanbytes
 from plugins.config import Config
-from Config import START_IMG_URL as THUMBNAIL
+from plugins.config import START_IMG_URL as THUMBNAIL
 from plugins.dl_button import ddl_call_back
 from plugins.youtube_dl_button import youtube_dl_call_back
 from plugins.settings.settings import OpenSettings
