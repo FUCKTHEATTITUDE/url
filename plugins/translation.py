@@ -33,9 +33,7 @@ I Am Telegram URL Uploader Bot.
     ABOUT_TEXT ="""**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD
  ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**
 """ 
-    PRE_TEXT ="""**PAY AND SEND SCREEN SHOT OF THE PAYMENT TO GET PREMIUM PAKAGE UPLOAD
- ALL URL,UNLIMITED UPLOAD PER MONTH 65 RUPES INR to @alpha_romeo_06**
-"""
+    
     PROGRESS = """
 🚀 Sᴘᴇᴇᴅ : {3}/s\n
 ✅ Dᴏɴᴇ : {1}\n
@@ -51,8 +49,6 @@ I Am Telegram URL Uploader Bot.
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about')
         ],[
-        InlineKeyboardButton('upgrade', callback_data='premium')],
-        [
         InlineKeyboardButton('Close', callback_data='close')
         ]]
     )
@@ -70,11 +66,6 @@ I Am Telegram URL Uploader Bot.
         InlineKeyboardButton('Help', callback_data='help')
         ],[
         InlineKeyboardButton('🔒 Close', callback_data='close')
-        ]]
-    )
-    PRE_BUTTONS = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton('premium', callback_data='premium')
         ]]
     )
     BUTTONS = InlineKeyboardMarkup(
