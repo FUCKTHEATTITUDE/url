@@ -61,7 +61,7 @@ async def button(bot, update):
 🌸 Fembed link support
 🌸 No Timeout
 🌸 Support other link
-
+ Send Payment Screenshot & Your Telegram Id @alpha_romeo_06
  Please upgrade your subscription""",
           reply_markup=types.InlineKeyboardMarkup([[
                                    types.InlineKeyboardButton("paid plans",
@@ -101,7 +101,7 @@ async def button(bot, update):
 𖣔 Select the desired option.
 
 𖣔 Then be relaxed your file will be uploaded soon..
-
+Send Payment Screenshot & Your Telegram Id @alpha_romeo_06
 𖣔  to Set caption as Reply to Media""",
           reply_markup=types.InlineKeyboardMarkup([[
                                    types.InlineKeyboardButton("plans",
